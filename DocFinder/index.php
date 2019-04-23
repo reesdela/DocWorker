@@ -61,7 +61,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;                            
                             
                             // Redirect user to welcome page
-                            $password_err = "fuck password you entered was not valid.";
+                            $password_err = "butterfly password you entered was not valid.";
                             header("location: welcomepage.php");
                         } else{
                             // Display an error message if password is not valid
